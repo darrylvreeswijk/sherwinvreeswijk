@@ -1,0 +1,342 @@
+
+body {
+
+background-color:url('/images/glitch_foto_dryll.gif') no-repeat fixed right top #000; ;
+font-family: Helvetica,sans-serif;
+color:#333;
+margin:0;
+padding:0;
+}
+
+#wrapper {
+width:100%;
+background-color:#fff;
+position:absolute;
+margin:0;
+z-index:-1;
+
+/*border-left:3px solid #f00;
+border-right:3px solid #f00;*/
+
+}
+
+#header {
+width:100%;
+height:0px;
+margin-top:0px;
+border-bottom:1px solid #000;
+border-top:1px solid #ccc;
+padding: 50px 30px;
+position:fixed;
+background-color:#fff;
+z-index:1;
+}
+
+#header h1 {
+font-family:Helvetica Neue LT Std, Sans-serif;
+font-weight:100;
+font-size:70px;
+letter-spacing:-1px;
+color:#000;
+padding:0px;
+position:fixed;
+background-color:#none;
+top:-25px;
+left:0px;
+z-index:1;
+margin-left:30px;
+
+}
+	
+
+#header h2 {
+font-family:Helvetica, Sans-serif;
+font:bold;
+font-size:50px;
+letter-spacing:-3px;
+color:#6dbbdf;
+opacity:70;
+padding-right:10px;
+position:fixed;
+background-color:#none;
+top:60px;
+right:0px;
+z-index:1;
+/*width:1258px;*/
+margin-right:30px;
+/*border: 1px solid #000;*/
+box-shadow: 0px 0.3px 0.3px #000, 0px 0.3px 0.3px #777;
+}
+
+#wrap	{
+	width: 100%; /* Spans the width of the page */
+	height: 20px; 
+	top: 101px;
+	padding:20px;
+	/*z-index: 99; /* Makes sure that your menu remains on top of other page elements */
+	position: fixed;
+	background-color: #fff;
+	/*border: 1px solid #000;*/
+	box-shadow: 0px 0.3px 0.3px #000, 0px 0.3px 0.3px #000;
+}
+	
+.navbar	{
+	box-shadow: 0px 0.3px 0.3px #111, 0px 0.3px 0.3px #777;
+	height: 30px;
+	width: 100%;
+	margin-top: 0px;
+    padding-top: 2px;
+	position: fixed; /* Ensures that the menu doesn’t affect other elements */
+	/*border: 1px solid #000;*/
+	}	
+
+.navbar li 	{
+			height: auto;
+			width: 130px;  /* Each menu item is 130px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: left;  /* All text is placed in the left of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 14px/1.2em Arial, Verdana, Helvetica; 
+	}	
+						
+.navbar a	{							
+		padding: 7px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		/*border-left: 1px solid #54879d; /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
+		/*border-right: 1px solid #1f5065; /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: white; /* Text color is white */
+		display: block;
+		}
+
+.navbar li:hover, a:hover {
+		background-color: #FFF;} 
+
+.navbar li:active{
+		background-color: ##6dbbdf;} 
+
+
+.navbar li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;	
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */
+		}		
+
+.navbar li ul li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;	
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 0; /* Aligns drop-down box underneath the menu item */
+		}		
+
+.navbar li:hover ul 	{
+                        display: inline;  Displays the drop-down box when the menu item is hovered over 
+                        } 
+
+.navbar li ul li {
+text-align:left;
+display:inline;
+
+}
+
+#h1link {
+text-decoration:none;
+
+}
+
+
+#content {
+width:80%;
+position:relative;
+top: 100px;
+bottom:75px;
+float:left;
+padding:10px;
+z-index:-1;
+margin-left:30px;
+margin-top: 70px;
+/*border: 1px solid #000;
+*/}
+
+
+
+
+#content p{
+width:100%;
+float:left;
+padding:5px;
+z-index:-1;
+
+
+}
+
+.portfolio {
+width:100%;
+display: block;
+padding:50px;
+
+}
+.portfolio a{
+text-decoration:none;
+list-style:none;
+padding:20px;
+margin:10px 10px;
+}
+
+
+#contact ul{
+list-style:none;
+}
+
+
+
+#sidebar {
+position:relative;
+top:170px;
+width:200px;
+float:right;
+margin-bottom:25px;
+z-index:-1;
+/*border: 1px solid #000;
+*/}
+
+#sidebar a {
+text-decoration:none;
+}
+
+#sidebar li {
+list-style:none;
+}
+
+#footer {
+clear:both;
+width:100%;
+height:5px;
+border-top:1px solid #ccc	;
+padding:6px;
+background-color:#fff;
+position:fixed;
+bottom:0px;
+
+}
+
+#footer p {
+text-align:center;
+padding:3px;
+width:100%;
+background-color:none;
+position:fixed;
+bottom:-15px;
+}
+
+a:link {color:#6dbbdf;}      /* unvisited link */
+a:visited {color:#6dbbdf;}  /* visited link */
+a:hover {color:#cc0000;}  /* mouse over link */
+a:active {color:#cc0000;}  /* selected link */ 
+
+.divsoc {
+position:static;
+height: 60px;
+/*border: 1px solid #000;*/
+width: 100%;
+
+}
+
+#content.social{
+height: 50px;
+width: 100%;  /* Each menu item is 130px wide */
+float: left;  /* This lines up the menu items horizontally */
+text-align: left;  /* All text is placed in the left of the box */
+list-style: none;  /* Removes the default styling (bullets) for the list */
+font: normal bold 14px/1.2em Arial, Verdana, Helvetica;
+/*border: 1px solid #000;*/ 
+position: static;
+}
+
+.social li{
+	position: static;
+	display: inline-block;
+	margin: 0.25em;
+	height: 50px;
+	width: 50px;
+	overflow: hidden;
+	/*border: 1px solid #000;*/
+}
+ul.social
+	{
+		cursor: default;
+		margin: 0;
+	}
+	
+			/*ul.social li.twitter a			{ background-image: url('images/social/twitter.png');}
+			ul.social li.facebook			{ background-image: url('images/social/facebook.png'); }
+			ul.social li.linkedin			{ background-image: url('images/social/linkedin.png'); }
+			ul.social li.googleplus			{ background-image: url('images/social/googleplus.png'); }
+			ul.social li.instagram			{ background-image: url('images/social/instagram.png'); }
+			ul.social li.skype				{ background-image: url('images/social/skype.png'); }
+			ul.social li.youtube			{ background-image: url('images/social/youtube.png'); }
+*/
+tbody.button{
+	margin-left: 2px;
+}		
+
+.button
+	{
+		box-shadow: 0px 1px 0px #111, 0px 2px 0px #777;
+  border: 0px none;
+  border-radius: 1px;
+  color: #FFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 4px;
+  margin-bottom: 2px;
+  margin-top: 10px;
+  margin-left: 2px;
+  padding: 7px 10px;
+  text-transform: none;
+  transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  text-align: center;
+  background: none repeat scroll 0px 0px #6dbbdf;
+  color: $white;
+		-moz-transition: background-color .2s ease-in-out;
+		-webkit-transition: background-color .2s ease-in-out;
+		-o-transition: background-color .2s ease-in-out;
+		-ms-transition: background-color .2s ease-in-out;
+		transition: background-color .2s ease-in-out;
+	}
+
+
+.dropdwn:hover .volet_1
+{
+  top: 80px;
+  background-color: #ffffff;
+  -webkit-transform:scale(0.85);
+  -moz-transform:scale(0.85);
+  -ms-transform:scale(0.85);
+  transform:scale(0.85);
+}
+.dropdwn:hover .volet_2
+{
+  top: 10px;
+  background-color: #ffffff;
+  -webkit-transform:scale(0.90);
+  -moz-transform:scale(0.90);
+  -ms-transform:scale(0.90);
+  transform:scale(0.90);
+}
+.dropdwn:hover .volet_3
+{
+  top: -60px;
+  background-color: #ffffff;
+  -webkit-transform:scale(0.95);
+  -moz-transform:scale(0.95);
+  -ms-transform:scale(0.95);
+  transform:scale(0.95);
+  
+}
+
